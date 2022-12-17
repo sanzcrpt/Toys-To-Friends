@@ -1,10 +1,12 @@
+import Header from './components/Header';
+import Hero from './components/Hero';
 
-import './App.css';
 
 function App() {
   return (
-    <div className="App">
-        Toys To Friends
+    <div className="App ">
+        <Header />
+        <Hero />
     </div>
   );
 }
