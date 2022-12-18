@@ -7,9 +7,7 @@ function Hero() {
         <img src={logo} className='max-h-[400px] m-auto mt-4'></img>
         <div className='absolute w-full flex flex-col md:flex-row md:justify-between md:px-[60px] md:top-[30%] space-y-4'>
             <div className='md:w-[300px] text-center'>
-            <p className='font-bold text-[20px] p-2 bg-sky-600 rounded-md h-[60px] text-center text-white mt-4 '>Our Mission</p>
-            <p className='invisible md:visible bg-white border-2 md:w-[200px] md:h-[60px] m-auto md:mt-10 md:p-2'>Misson</p>
-            <p className='font-bold text-[20px] p-2 bg-sky-600 rounded-md h-[60px] text-center text-white mt-4 lg:w-[400px]'>Our Mission</p>
+            <p className='font-bold text-[20px] p-2 bg-sky-600 rounded-md h-[60px] text-center text-white lg:w-[400px]'>Our Mission</p>
             <p className='invisible md:visible bg-white border-2 md:w-[200px] lg:w-[400px] lg:h-[300px]  md:h-[60px] m-auto md:mt-6 md:p-2'> Our mission is to provide a sustainable and fun solution for children to obtain new toys without contributing to the negative environmental impacts of the toy industry. By facilitating the exchange of gently used toys between children around the world, we aim to reduce the amount of plastic waste in the oceans and promote a culture of sharing and reusing resources. Through our toy exchange program, we hope to inspire the next generation of environmental stewards and create a brighter future for all.</p>
             </div>
             <div className='md:w-[300px] lg:w-[400px] text-center'>
